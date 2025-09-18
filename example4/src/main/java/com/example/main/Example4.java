@@ -12,6 +12,6 @@ public class Example4 {
 
         Vehicle vehicle = context.getBean(Vehicle.class);
         System.out.println(vehicle.getName());
-
+        context.close();
     }
 }
